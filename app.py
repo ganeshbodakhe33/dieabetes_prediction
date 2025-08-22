@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 from flask_cors import CORS
 app = Flask(__name__) 
-CORS(app)
+CORS(app) 
 
 
 model = pickle.load(open("testing5.pkl", "rb"))
